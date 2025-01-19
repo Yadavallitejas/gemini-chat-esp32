@@ -1,13 +1,13 @@
-
+//code written by Tejas Yadavalli 
 #include <Arduino.h>
 #include <WiFi.h>
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "ssid";
-const char* password = "pass";
-const char* Gemini_Token = "Gemini API";
-const char* Gemini_Max_Tokens = "100";
+const char* ssid = "your_wifi_name";        // Your Wi-Fi SSID
+const char* password = "your_wifi_password"; // Your Wi-Fi password
+const char* Gemini_Token = "your_gemini_api_key"; // Your Gemini API key
+const char* Gemini_Max_Tokens = "200";      // Maximum token limit for responses
 String res = "";
 
 
