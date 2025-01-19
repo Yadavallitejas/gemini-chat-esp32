@@ -41,7 +41,7 @@ This project demonstrates the integration of the **Gemini API** with an **ESP32 
 ### Step 1: Clone the Repository
 Download the project files:
 ```bash
-git clone https://github.com/yadavallitejas/gemini-chat-esp32.git
+git clone https://github.com/Yadavallitejas/gemini-chat-esp32.git
 cd gemini-chat-esp32
 ```
 ### Step 2: Install Arduino IDE and Libraries
